@@ -1,0 +1,47 @@
+
+@import "variables";
+
+:root{
+    font-size: 16px;
+    
+}
+body{
+    background:#f2f2f2 ;
+    font-family: Gothic A1, sans-serif;
+    color: #000000;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+h1{
+    margin: 0;
+}
+main{
+    background:#ffffff;
+    width: 1440px;
+    padding:35px 0;
+    margin: 100px auto 0;
+    display: flex;
+    .outer-container{
+        width: 50%;
+        display: flex;
+        .inner-container{
+            width: 555px;
+            box-sizing: border-box;
+            padding-right: 110px;
+        }
+    }
+    .container-text{
+        justify-content: flex-end;
+        h1{
+            font-size: 28px;
+            line-height: 1.14em;
+        }
+    }
+    .container-img{
+        justify-content: flex-start;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
